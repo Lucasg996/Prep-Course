@@ -20,7 +20,7 @@ function crearUsuario() {
       return "Hola, mi nombre es" + this.nombre;
     }
   }
-}
+
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
@@ -72,10 +72,7 @@ function agregarStringInvertida() {
           domicilio:this.domicilio
         }
 
-      }
 
-    }
-}
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
