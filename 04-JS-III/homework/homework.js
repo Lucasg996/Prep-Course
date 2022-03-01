@@ -24,9 +24,12 @@ function incrementarPorUno(array) {
   // y devuelve el array
   // Tu código:
   var nuevoarray=[]
-  for(i=0; i<array.length;i++)
-   
-{ nuevoArray[i] = array[i] + 1;}
+  
+  for(i=0; i<array.length;i++){ 
+
+    nuevoArray[i] = array[i] + 1;
+
+}
     return nuevoarray;
   
 
@@ -37,6 +40,9 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  array.unshift(elemento);
+
+  return array;
 }
 
 
