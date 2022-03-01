@@ -9,6 +9,15 @@ function crearUsuario() {
   // Devuelve la clase
   // Tu código:
 
+  function Usuario (opciones){
+this.nombre=opciones.nombre;
+this.email=opciones.email;
+this.password=opciones.password;
+
+    Usuario.prototype.saludar= function() {
+      return "Hola, mi nombre es" + this.nombre;
+    };
+  }
 
 
 function agregarMetodoPrototype(Constructor) {
@@ -47,10 +56,10 @@ function agregarStringInvertida() {
     constructor(/*Escribir los argumentos que recibe el constructor*/) {
       // Crea el constructor:
       function Persona(nombre,apellido,edad,domicilio){
-        this.nombre:nombre,
-        this.apellido:apellido,
-        this.edad:edad,
-        this.domicilio:domicilio,
+        this.nombre=nombre,
+        this.apellido=apellido,
+        this.edad=edad,
+        this.domicilio=domicilio,
         this.detalle=function()
 
         return{
