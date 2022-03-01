@@ -41,7 +41,7 @@ function agregarStringInvertida() {
 
 
   }
-}
+
 
 // ---------------------------------------------------------------------------//
   //Crea el constructor de la clase "Persona"
